@@ -1,0 +1,25 @@
+# Large dataset files - do not push
+data/*.csv
+data/*.pcap
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model files (optional - comment out if you want to push models)
+# outputs/models/*.pkl
